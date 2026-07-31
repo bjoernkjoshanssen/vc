@@ -1,0 +1,47 @@
+q=2 baseline (resolved in prior work):
+  n=1:    4 profiles, VC dim = 2
+  n=2:   16 profiles, VC dim = 4
+  n=3:   86 profiles, VC dim = 5
+  n=4:  116 profiles, VC dim = 5
+  n=5:  122 profiles, VC dim = 5
+  n=6:  122 profiles, VC dim = 5
+q=3, small n:
+  n=1:    4 profiles, VC dim = 2
+  n=2:   16 profiles, VC dim = 4
+  n=3:  256 profiles, VC dim = 8
+q=3, n=4:
+  5423 profiles
+  level 1: 16 shattered sets
+  level 2: 120 shattered sets
+  level 3: 560 shattered sets
+  level 4: 1820 shattered sets
+  level 5: 4368 shattered sets
+  level 6: 7898 shattered sets
+  level 7: 8730 shattered sets
+  level 8: 886 shattered sets
+  level 9: 2 shattered sets
+  extremal 9-set: ['0000', '0010', '0100', '0101', '0110', '1001', '1011', '1101', '1111']
+  extremal 9-set: ['0000', '0010', '0100', '0110', '1001', '1010', '1011', '1101', '1111']
+  d_3(4) = 9, certified
+q=3, n=5:
+  14773 profiles
+  profile set invariant under the symmetry group: OK
+  level 1: 10 canonical, 32 total
+  level 2: 142 canonical, 496 total
+  level 3: 1278 canonical, 4960 total
+  level 4: 9168 canonical, 35960 total
+  level 5: 50645 canonical, 201324 total
+  level 6: 221149 canonical, 880636 total
+  level 7: 493205 canonical, 1968732 total
+  level 8: 36709 canonical, 145801 total
+  level 1: 32 shattered sets
+  level 2: 496 shattered sets
+  level 3: 4960 shattered sets
+  level 4: 35960 shattered sets
+  level 5: 201324 shattered sets
+  level 6: 880636 shattered sets
+  level 7: 1968732 shattered sets
+  level 8: 145801 shattered sets
+  final independent pass: extending all shattered 8-sets with the naive predicate...
+  d_3(5) = 8, certified
+CONCLUSION: d_3(4) = 9 > 8 = d_3(5); monotonicity in n fails for NFA'(3).
